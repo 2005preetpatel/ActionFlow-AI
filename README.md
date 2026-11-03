@@ -12,7 +12,7 @@ extracts concrete tasks — with due dates **only** when the message actually st
 
 | Item | Link |
 |---|---|
-| Demo video (screen recording) | [demo/actionflow-demo.webm](demo/actionflow-demo.webm) |
+| Demo video (screen recording) | [Watch in browser](https://cdn.jsdelivr.net/gh/2005preetpatel/ActionFlow-AI@main/demo/actionflow-demo.webm) · [file in repo](demo/actionflow-demo.webm) |
 | Database schema | [database/schema.sql](database/schema.sql) |
 | Database SQL export (schema + analysed data) | [database/actionflow_dump.sql](database/actionflow_dump.sql) |
 | Features document | [FEATURES.md](FEATURES.md) |
