@@ -1,0 +1,38 @@
+{
+  "name": "actionflow-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ActionFlow AI - Intelligent inbox and task management. Converts emails and messages into actionable tasks using Gemini.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"node server/index.js\" \"vite\"",
+    "dev:api": "node --watch server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "db:setup": "node server/scripts/setup-db.js",
+    "db:reset": "node server/scripts/setup-db.js --reset",
+    "import:sample": "node server/scripts/import-sample.js",
+    "test": "node --test \"server/tests/*.test.js\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.3"
+  }
+}

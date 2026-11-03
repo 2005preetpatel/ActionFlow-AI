@@ -1,0 +1,25 @@
+# Local MySQL 8 for ActionFlow AI.
+# The schema in database/schema.sql is applied automatically on first start.
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: actionflow-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootpass}
+      MYSQL_DATABASE: ${DB_NAME:-actionflow}
+      MYSQL_USER: ${DB_USER:-actionflow}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-actionflow}
+    ports:
+      - "${DB_PORT:-3306}:3306"
+    volumes:
+      - actionflow-mysql-data:/var/lib/mysql
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${DB_ROOT_PASSWORD:-rootpass}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  actionflow-mysql-data:

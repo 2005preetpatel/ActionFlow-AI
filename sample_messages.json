@@ -1,0 +1,321 @@
+{
+  "messages": [
+    {
+      "id": "MSG001",
+      "type": "email",
+      "sender": { "name": "Priya Nair", "email": "priya.nair@greenleaf-organics.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Diwali sale banner copy",
+      "date": "2026-10-27T09:12:00+05:30",
+      "content": "Hi team, I have attached the final copy for the Diwali sale banner. Please update the homepage hero banner with this text and the 20% off code DIWALI20 by 30 October so it is live before the weekend traffic. Let me know if the character count is a problem for the mobile layout.",
+      "attachments": [
+        { "filename": "diwali_banner_copy_v3.docx", "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "sizeKb": 46 }
+      ]
+    },
+    {
+      "id": "MSG002",
+      "type": "email",
+      "sender": { "name": "Cloudhost Billing", "email": "no-reply@billing.cloudhost.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Payment received - Invoice CH-88231",
+      "date": "2026-10-27T10:05:00+05:30",
+      "content": "This is an automated receipt. We have received your payment of INR 14,750.00 for the Cloudhost Business plan (October 2026). No further action is required. This mailbox is not monitored, so please do not reply to this message.",
+      "attachments": []
+    },
+    {
+      "id": "MSG003",
+      "type": "message",
+      "sender": { "name": "Arjun Mehta", "email": "arjun.mehta@nimbusdigital.example" },
+      "recipient": "team-chat",
+      "subject": "Quick ping",
+      "date": "2026-10-27T11:40:00+05:30",
+      "content": "hey, Sunrise Dental says the contact form submissions aren't reaching their inbox. could someone check if they're landing in spam or if the SMTP settings changed?",
+      "attachments": []
+    },
+    {
+      "id": "MSG004",
+      "type": "email",
+      "sender": { "name": "Meera Iyer", "email": "meera.iyer@brightpath-edu.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Charged twice for October invoice",
+      "date": "2026-10-27T14:20:00+05:30",
+      "content": "Hello, I noticed that our account was debited twice for invoice INV-2026-0412 (INR 62,000 each time). I have attached the bank statement showing both transactions. This is quite frustrating as it affects our month-end books. Kindly look into it and confirm how the duplicate payment will be refunded.",
+      "attachments": [
+        { "filename": "bank_statement_oct_2026.pdf", "mimeType": "application/pdf", "sizeKb": 218 }
+      ]
+    },
+    {
+      "id": "MSG005",
+      "type": "email",
+      "sender": { "name": "Daniel Okafor", "email": "daniel.okafor@lagoswave.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Kickoff call - Wednesday 28 October, 3:00 PM IST",
+      "date": "2026-10-27T16:45:00+05:30",
+      "content": "Dear Nimbus team, I would like to invite you to our project kickoff call on Wednesday, 28 October at 3:00 PM IST (10:30 AM WAT). We will walk through the scope for the new customer portal and agree on milestones. The video link is https://meet.example/lagoswave-kickoff. Please confirm who from your side will attend.",
+      "attachments": []
+    },
+    {
+      "id": "MSG006",
+      "type": "email",
+      "sender": { "name": "DesignDeck Weekly", "email": "hello@designdeck.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "This week: 12 landing page trends and 30% off Pro templates",
+      "date": "2026-10-28T08:55:00+05:30",
+      "content": "Your weekly dose of design inspiration is here! Explore 12 landing page trends for 2026, plus enjoy 30% off all Pro templates until Sunday with code WEEKLY30. You are receiving this email because you subscribed to DesignDeck Weekly. Unsubscribe at any time.",
+      "attachments": []
+    },
+    {
+      "id": "MSG007",
+      "type": "message",
+      "sender": { "name": "Sneha Kulkarni", "email": "sneha.kulkarni@urbancrate.example" },
+      "recipient": "team-chat",
+      "subject": "Thanks!",
+      "date": "2026-10-28T10:15:00+05:30",
+      "content": "Just wanted to say thanks for the quick fix on the checkout page yesterday. Everything looks great now!",
+      "attachments": []
+    },
+    {
+      "id": "MSG008",
+      "type": "email",
+      "sender": { "name": "Karthik Reddy", "email": "karthik.reddy@hyderabad-handloom.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "URGENT: Website is down (502 error)",
+      "date": "2026-10-28T11:30:00+05:30",
+      "content": "Our entire website has been showing a 502 Bad Gateway error since about 11:00 AM. We are running a flash sale today and every minute of downtime is costing us orders. Please look into this immediately and call me on 98450 00000 as soon as it is back up.",
+      "attachments": []
+    },
+    {
+      "id": "MSG009",
+      "type": "email",
+      "sender": { "name": "Lakshmi Venkatesh", "email": "admin@nimbusdigital.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Office holiday notice - Diwali break",
+      "date": "2026-10-28T13:10:00+05:30",
+      "content": "Dear all, please note that the Nimbus Digital office will be closed on Monday, 9 November for the Diwali break. Normal working hours resume on Tuesday, 10 November. For anything critical during the break, the on-call roster is available on the intranet. Wishing everyone a safe and happy Diwali!",
+      "attachments": []
+    },
+    {
+      "id": "MSG010",
+      "type": "email",
+      "sender": { "name": "Ananya Banerjee", "email": "ananya.banerjee@greenleaf-organics.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Q4 analytics report",
+      "date": "2026-10-28T15:30:00+05:30",
+      "content": "Hi team, could you please prepare and share the Q4 analytics report for the Greenleaf Organics campaigns? We need traffic, conversion rate and ad spend by channel. The deadline on our side is 6 November.",
+      "attachments": []
+    },
+    {
+      "id": "MSG011",
+      "type": "email",
+      "sender": { "name": "Vikram Singh", "email": "vikram.singh@rajputana-travels.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Re: SEO audit proposal",
+      "date": "2026-10-28T17:05:00+05:30",
+      "content": "Hello, following up on my email from last week regarding the SEO audit proposal for our travel packages pages. I have not heard back yet. Could you share an update on the scope and pricing when you can?",
+      "attachments": []
+    },
+    {
+      "id": "MSG012",
+      "type": "message",
+      "sender": { "name": "Rohan Das", "email": "rohan.das@nimbusdigital.example" },
+      "recipient": "team-chat",
+      "subject": "Payments failing!!",
+      "date": "2026-10-29T09:20:00+05:30",
+      "content": "Urgent - Craftkart's payment gateway is returning error 500 on checkout and customers are dropping off. started around 9. can someone with gateway access look at it right now?",
+      "attachments": []
+    },
+    {
+      "id": "MSG013",
+      "type": "email",
+      "sender": { "name": "Fatima Sheikh", "email": "fatima.sheikh@zenfit-studio.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Pricing page, quotation and review call",
+      "date": "2026-10-29T10:40:00+05:30",
+      "content": "Hi, three things from our side. First, please update the pricing page with the new plan names from the attached sheet; we need this by end of day tomorrow. Second, send us the revised quotation for the mobile app. Third, can we schedule a short review call early next week to go over the new designs?",
+      "attachments": [
+        { "filename": "new_plan_names.xlsx", "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "sizeKb": 24 }
+      ]
+    },
+    {
+      "id": "MSG014",
+      "type": "email",
+      "sender": { "name": "Nimbus Product Team", "email": "product@nimbusdigital.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Release notes: Nimbus CMS v3.8",
+      "date": "2026-10-29T12:25:00+05:30",
+      "content": "Nimbus CMS v3.8 is now live for all client sites. Highlights: faster media library, bulk redirects editor, and improved accessibility on form blocks. Full release notes are attached for reference. No action is needed; existing sites were upgraded automatically.",
+      "attachments": [
+        { "filename": "nimbus_cms_v3.8_release_notes.pdf", "mimeType": "application/pdf", "sizeKb": 132 }
+      ]
+    },
+    {
+      "id": "MSG015",
+      "type": "email",
+      "sender": { "name": "Hannah Müller", "email": "hannah.mueller@securenord.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Security issue: staging admin panel is publicly accessible",
+      "date": "2026-10-29T14:00:00+05:30",
+      "content": "During a routine check we found that the admin panel of your staging site for our project is reachable from the internet without any authentication, and it exposes customer test data. This is a serious security risk. Please restrict access and rotate any shared credentials before the end of the day today. A screenshot is attached.",
+      "attachments": [
+        { "filename": "staging_admin_exposed.png", "mimeType": "image/png", "sizeKb": 312 }
+      ]
+    },
+    {
+      "id": "MSG016",
+      "type": "message",
+      "sender": { "name": "Arjun Mehta", "email": "arjun.mehta@nimbusdigital.example" },
+      "recipient": "team-chat",
+      "subject": "Re: contact form",
+      "date": "2026-10-29T16:10:00+05:30",
+      "content": "Noted, thanks.",
+      "attachments": []
+    },
+    {
+      "id": "MSG017",
+      "type": "email",
+      "sender": { "name": "Siddharth Rao", "email": "siddharth.rao@greenleaf-organics.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Need Q4 numbers for board meeting",
+      "date": "2026-10-30T09:05:00+05:30",
+      "content": "Good morning. I will be presenting to our board and need the Q4 analytics report for our digital campaigns, covering traffic, conversions and spend per channel. Please send it over before Wednesday's board meeting.",
+      "attachments": []
+    },
+    {
+      "id": "MSG018",
+      "type": "email",
+      "sender": { "name": "Neha Kapoor", "email": "neha.kapoor@pixelmint.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Reschedule: design review",
+      "date": "2026-10-30T10:30:00+05:30",
+      "content": "Hi, I need to reschedule our design review that was set for Monday, 2 November at 11:00 AM. Would Tuesday, 3 November at 4:00 PM IST work for your team? Same video link will be used. Please confirm if the new slot is fine.",
+      "attachments": []
+    },
+    {
+      "id": "MSG019",
+      "type": "email",
+      "sender": { "name": "Pradeep Joshi", "email": "pradeep.joshi@joshi-sweets.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Website still not delivered",
+      "date": "2026-10-30T12:15:00+05:30",
+      "content": "We were promised delivery of the online ordering website on 23 October and it is now a week later with no update. Our festive season is starting and we are losing orders. I am very disappointed with this delay. Please send me a revised delivery timeline by Monday along with the reason for the slip.",
+      "attachments": []
+    },
+    {
+      "id": "MSG020",
+      "type": "email",
+      "sender": { "name": "NameVault Registrar", "email": "receipts@namevault.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Domain renewal receipt - nimbusdigital.example",
+      "date": "2026-10-30T15:00:00+05:30",
+      "content": "Thank you for your payment. Your domain nimbusdigital.example has been renewed for 1 year. Your receipt is attached. This is an automated message and no action is required.",
+      "attachments": [
+        { "filename": "receipt_NV-552019.pdf", "mimeType": "application/pdf", "sizeKb": 58 }
+      ]
+    },
+    {
+      "id": "MSG021",
+      "type": "message",
+      "sender": { "name": "Isha Malhotra", "email": "isha.malhotra@bloomboutique.example" },
+      "recipient": "team-chat",
+      "subject": "Small addition",
+      "date": "2026-10-31T10:05:00+05:30",
+      "content": "Hi! Sometime soon could you also add a testimonials section to our home page? No rush at all, whenever you get a chance. I'll send the customer quotes separately.",
+      "attachments": []
+    },
+    {
+      "id": "MSG022",
+      "type": "message",
+      "sender": { "name": "Ritu Agarwal", "email": "ritu.agarwal@agarwal-textiles.example" },
+      "recipient": "team-chat",
+      "subject": "Thank you",
+      "date": "2026-10-31T11:30:00+05:30",
+      "content": "Thank you so much for delivering the new catalogue site. Our customers love it and the team is very happy with the whole experience!",
+      "attachments": []
+    },
+    {
+      "id": "MSG023",
+      "type": "email",
+      "sender": { "name": "Tomasz Kowalski", "email": "tomasz.kowalski@polskatech.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Multilingual support quote",
+      "date": "2026-11-01T09:40:00+05:30",
+      "content": "Hello, we are considering adding Hindi and Polish versions of our website. Could you send us a quotation and a rough estimate of the effort involved? We would also like to know which translation plugins you recommend.",
+      "attachments": []
+    },
+    {
+      "id": "MSG024",
+      "type": "message",
+      "sender": { "name": "Arjun Mehta", "email": "arjun.mehta@nimbusdigital.example" },
+      "recipient": "team-chat",
+      "subject": "Quick ping",
+      "date": "2026-11-01T18:20:00+05:30",
+      "content": "Greenleaf wants to see the new store on staging in tomorrow's 10 AM call. Can someone share the staging URL and login with me before then?",
+      "attachments": []
+    },
+    {
+      "id": "MSG025",
+      "type": "email",
+      "sender": { "name": "Lakshmi Venkatesh", "email": "admin@nimbusdigital.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Policy update: remote work and leave",
+      "date": "2026-11-02T08:50:00+05:30",
+      "content": "Hello everyone, for your information, the updated remote work and leave policy will take effect from 1 December. The key changes are two additional remote days per month and a simplified leave approval flow. The full policy is on the intranet. No action is required from you at this time.",
+      "attachments": []
+    },
+    {
+      "id": "MSG026",
+      "type": "email",
+      "sender": { "name": "Rahul Sharma", "email": "rahul@example.com" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Website Launch",
+      "date": "2026-11-02T10:30:00+05:30",
+      "content": "Please complete the payment gateway integration and share the staging URL before Thursday.",
+      "attachments": []
+    },
+    {
+      "id": "MSG027",
+      "type": "email",
+      "sender": { "name": "Elena Rossi", "email": "elena.rossi@milanostudio.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Reminder: brand guidelines PDF",
+      "date": "2026-11-02T12:10:00+05:30",
+      "content": "Hi, a gentle reminder about the brand guidelines PDF I requested on 20 October. Our print vendor needs the final file, so please send it to me by 6 November at the latest. Thank you for your help.",
+      "attachments": []
+    },
+    {
+      "id": "MSG028",
+      "type": "email",
+      "sender": { "name": "Aditya Verma", "email": "aditya.verma@verma-fitness.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Mobile menu bug on iPhone",
+      "date": "2026-11-02T15:45:00+05:30",
+      "content": "The mobile menu does not open on product pages when using an iPhone; the screenshots are attached. Please fix this before our campaign starts on 9 November. Also, can you check whether the same problem affects the blog and checkout pages, and let us know what you find?",
+      "attachments": [
+        { "filename": "iphone_menu_bug_1.png", "mimeType": "image/png", "sizeKb": 284 },
+        { "filename": "iphone_menu_bug_2.png", "mimeType": "image/png", "sizeKb": 301 }
+      ]
+    },
+    {
+      "id": "MSG029",
+      "type": "message",
+      "sender": { "name": "Vikram Singh", "email": "vikram.singh@rajputana-travels.example" },
+      "recipient": "team-chat",
+      "subject": "Call moved",
+      "date": "2026-11-02T18:30:00+05:30",
+      "content": "Heads up, our weekly sync is moved to Thursday 5 November at 11:30 AM. Same meeting link as before. Does that slot work for you?",
+      "attachments": []
+    },
+    {
+      "id": "MSG030",
+      "type": "email",
+      "sender": { "name": "Naveen Prakash", "email": "naveen.prakash@nimbusdigital.example" },
+      "recipient": "team@nimbusdigital.example",
+      "subject": "Invitation: Sprint planning, Wed 4 Nov",
+      "date": "2026-11-03T09:15:00+05:30",
+      "content": "Hi all, sprint planning is scheduled for Wednesday, 4 November from 10:00 to 11:00 AM IST in the main conference room, with a video link for remote folks. The draft agenda is attached. Please confirm your attendance and add any agenda items you want to discuss.",
+      "attachments": [
+        { "filename": "sprint_planning_agenda.docx", "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "sizeKb": 37 }
+      ]
+    }
+  ]
+}
