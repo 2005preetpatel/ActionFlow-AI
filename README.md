@@ -8,6 +8,18 @@ extracts concrete tasks — with due dates **only** when the message actually st
 > Built for the Traction Shastra Full Stack Developer Intern assignment.
 > See **[FEATURES.md](FEATURES.md)** for the full feature list, API reference, AI prompts and database design.
 
+## Submission
+
+| Item | Link |
+|---|---|
+| Demo video (screen recording) | [demo/actionflow-demo.webm](demo/actionflow-demo.webm) |
+| Database schema | [database/schema.sql](database/schema.sql) |
+| Database SQL export (schema + analysed data) | [database/actionflow_dump.sql](database/actionflow_dump.sql) |
+| Features document | [FEATURES.md](FEATURES.md) |
+| Sample dataset | [sample_messages.json](sample_messages.json) |
+| Environment template | [.env.example](.env.example) |
+| Setup instructions | [Setup](#setup) |
+
 ## Highlights
 
 - **JSON import with validation** – strict check of the mandatory structure (unique ids, `email`/`message` type, ISO 8601 dates…), per-message error report, data stored in **MySQL**.
@@ -47,6 +59,7 @@ ActionFlow-AI/
 │   ├── scripts/            setup-db.js, import-sample.js
 │   └── tests/              node:test unit tests
 ├── database/schema.sql     MySQL schema (6 tables)
+├── demo/                   Screen recording of the app
 ├── sample_messages.json    30 fictional messages (AI-generated dataset)
 ├── docker-compose.yml      Optional MySQL 8 container
 ├── .env.example
