@@ -65,7 +65,7 @@ ActionFlow-AI/
 ### 1. Install
 
 ```bash
-git clone <your-repo-url> ActionFlow-AI
+git clone https://github.com/2005preetpatel/ActionFlow-AI.git
 cd ActionFlow-AI
 npm install
 ```
